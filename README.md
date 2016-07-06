@@ -12,4 +12,4 @@ directory and copies the incoming batches into two output directories.
 [github-tag-url]: https://github.com/mike-a-bike/batch-copy-process/tags
 [travis-image-master]: https://travis-ci.org/mike-a-bike/batch-copy-process.svg?branch=master
 [travis-image-develop]: https://travis-ci.org/mike-a-bike/batch-copy-process.svg?branch=develop
-[travis-url]: https://travis-ci.org/mike-a-bike/batch-copy-process
+[travis-url]: https://travis-ci.org/mike-a-bike/batch-copy-process/branches
