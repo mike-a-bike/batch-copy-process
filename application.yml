@@ -1,0 +1,16 @@
+# ---------------------
+# Custom configuration
+# ---------------------
+
+server:
+  port: 8899
+
+logging:
+  level:
+    ch.abraxas.ecmip.tools: INFO
+
+CopyTask:
+  input:   d:\temp\copy\in
+  target:  d:\temp/copy\out
+  backup:  d:\temp\copy\bkp
+  pattern: .*\.zip\.ok

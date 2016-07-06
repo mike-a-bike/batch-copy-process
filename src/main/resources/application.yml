@@ -1,0 +1,25 @@
+# -------------------------------
+# Built-In fallback configuration
+# -------------------------------
+
+endpoints:
+  shutdown:
+    enabled: true
+
+info:
+  os: ${os.name}
+  java: ${java.version}
+  app: @project.name@ (v@project.version@)
+
+server:
+  port: 8899
+
+logging:
+  level:
+    ch.abraxas.ecmip.tools: INFO
+
+CopyTask:
+  input:   d:\temp\copy\in
+  target:  d:\temp/copy\out
+  backup:  d:\temp\copy\bkp
+  pattern: .*\.zip\.ok
