@@ -96,7 +96,7 @@ public class CopyTask {
 
     private void validateDirectory(final Path dir) {
         if (!Files.exists(dir) || !Files.isDirectory(dir)) {
-            throw new IllegalArgumentException(String.format("[%s] does not exist or is no directory", dir.toString()));
+            log.warn(String.format("[%s] does not exist or is no directory", dir.toString()));
         }
     }
 
