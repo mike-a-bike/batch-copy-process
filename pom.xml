@@ -5,7 +5,7 @@
 
 	<groupId>ch.abraxas.ecmip.tools.batch</groupId>
 	<artifactId>batchcopier</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>Batch Copy Process</name>
